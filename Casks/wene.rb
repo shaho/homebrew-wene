@@ -7,7 +7,7 @@ cask "wene" do
   desc "Image viewer and slideshow app for macOS"
   homepage "https://github.com/shaho/wene"
 
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
 
   app "wene.app"
 
