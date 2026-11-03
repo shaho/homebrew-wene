@@ -1,6 +1,6 @@
 cask "wene" do
-  version "0.3.49"
-  sha256 "9f9b13a390d1bf4b1e199bcda3a6fded0518832439399f2ba7c6cd0e23ce72a3"
+  version "0.3.50"
+  sha256 "f9276659262ffb09fd0143be9f42363d3b4b075d3dd31f6afc0df32dbad1a8a1"
 
   url "https://github.com/shaho/wene/releases/download/v#{version}/wene-#{version}.dmg"
   name "Wêne"
