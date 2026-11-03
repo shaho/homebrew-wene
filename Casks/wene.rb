@@ -1,6 +1,6 @@
 cask "wene" do
-  version "0.3.50"
-  sha256 "f9276659262ffb09fd0143be9f42363d3b4b075d3dd31f6afc0df32dbad1a8a1"
+  version "0.3.51"
+  sha256 "32733427afd36531d95be1d1f95aa5d9877b456bd1b2cf471ae5d427d2e436ca"
 
   url "https://github.com/shaho/wene/releases/download/v#{version}/wene-#{version}.dmg"
   name "Wêne"
@@ -12,7 +12,7 @@ cask "wene" do
   app "wene.app"
 
   zap trash: [
-    "~/Library/Preferences/dev.shaho.wene.plist",
-    "~/Library/Saved Application State/dev.shaho.wene.savedState",
+    "~/Library/Application Scripts/dev.shaho.wene",
+    "~/Library/Containers/dev.shaho.wene",
   ]
 end
